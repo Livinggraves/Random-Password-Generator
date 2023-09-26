@@ -1,0 +1,119 @@
+
+
+:root{
+    --white: #FFF;
+    --Medium-grey: #D5D4D8;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1F2937;
+ 
+}
+main{
+     height:80%;
+    width:80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+h1{
+    color: var(--white, #FFF);
+font-family: Karla;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height:100%;
+letter-spacing: -1px;
+}
+
+#greenH{
+    color: #4ADF86;
+font-family: Karla;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: -1px;
+}
+.qoute{
+    color: var(--Medium-grey, #D5D4D8);
+    /* text-xl/leading-7/font-normal */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 140% */
+    }
+
+button{
+    border-radius: 6px;
+    background: #10B981;
+    padding: .5% 3%/*9px 17px 9px 15px*/;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 150% */
+    margin-top: 4%;
+}
+.divider{ 
+    width: 90%;
+    border-top:3px solid #2F3E53;
+   margin-top:3%;
+    
+}
+
+#copybox{ display: flex;
+ 
+    margin-top: 3%;
+    gap:2%;
+    
+}
+
+.copyboxes{
+
+    padding-top: 5px;
+    border-radius: 6px;
+    background: #273549;
+     width: 45%;
+    height: 35px; 
+    flex:1;
+    color: #55F991;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:  200% ;
+    overflow: hidden;
+}
+
+@media (max-width:800px) {
+    main{
+        position: absolute;
+        top:25vh;
+    }
+    
+}
+
+@media (max-width:250px) {
+    
+    main{position: static;
+        width:auto;
+        height: auto;
+    }
+}
+@media (max-height:380px) {
+    
+    main{position: static;
+    }
+}
