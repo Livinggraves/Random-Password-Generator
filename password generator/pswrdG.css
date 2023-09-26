@@ -97,6 +97,23 @@ button{
     overflow: hidden;
 }
 
-@media screen {
+@media (max-width:800px) {
+    main{
+        position: absolute;
+        top:25vh;
+    }
     
+}
+
+@media (max-width:250px) {
+    
+    main{position: static;
+        width:auto;
+        height: auto;
+    }
+}
+@media (max-height:380px) {
+    
+    main{position: static;
+    }
 }
